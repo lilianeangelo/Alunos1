@@ -8,4 +8,4 @@ RUN dotnet restore /app/Alunos1.csproj
 RUN dotnet build -c Release -o out /app/Alunos1.csproj
 
 
-CMD ["dotnet", "out/SeuApp.dll"]
+CMD ["dotnet", "out/Alunos1.dll"]
